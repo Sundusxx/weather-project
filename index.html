@@ -12,12 +12,13 @@
   <body>
     <div class="weather-app" >
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input" />
+        <input type="submit" value="Search" class="search-form-button"/>
       </form>
     </header>
     <main>
+      <div class="weather-app-data">
       <div>
         <h1>Paris</h1>
       <p>
@@ -25,6 +26,7 @@
         Humidity: 66%, Wind: 3.13km/h
       </p></div>
      <div> 🌥️ 12 °C </div>
+    </div>
     </main>
 
     <footer>
